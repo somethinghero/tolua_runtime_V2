@@ -1,5 +1,5 @@
 @echo off
-set ndkPath=D:/android-ndk-r10e
+set ndkPath=D:/Android/sdk/ndk-bundle/android-ndk-r10e
 cd ./android
 call %ndkPath%/ndk-build clean APP_ABI="arm64-v8a"
 call %ndkPath%/ndk-build APP_ABI="arm64-v8a"
